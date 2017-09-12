@@ -1,0 +1,401 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "email": "test@me.com",
+      "created_at": "2017-06-28 14:42:23.296+03",
+      "updated_at": "2017-06-28 14:42:25.086+03",
+      "access_token": {
+        "id": 1,
+        "user_id": 1,
+        "access_token": "ae2ae03f3e500780f1f2badbdaf30477",
+        "token_type": "Bearer",
+        "expires_at": "2038-07-13 00:00:00+03",
+        "ip_address": null,
+        "created_at": "2038-07-04 15:02:25+03",
+        "updated_at": "2017-07-04 15:02:25+03"
+      },
+      "settings": {
+        "candidates_per_page": 200,
+        "vacancies": [
+          {
+            "id": 112,
+            "name": "Старший менеджер по обслуживанию",
+            "funnel_id": 1
+          },
+          {
+            "id": 113,
+            "name": "Тестовая вакансия 800",
+            "funnel_id": 1
+          },
+          {
+            "id": 109,
+            "name": "Консультант",
+            "funnel_id": 2
+          },
+          {
+            "id": 110,
+            "name": "Специалист контактного центра",
+            "funnel_id": 1
+          },
+          {
+            "id": 111,
+            "name": "Специалист по прямым продажам",
+            "funnel_id": 1
+          }
+        ],
+        "default_vacancy_id": 109,
+        "statuses": [
+          {
+            "id": 1,
+            "name": "Перенаправлен",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 2,
+            "name": "Приглашен откликнуться",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 3,
+            "name": "Новый",
+            "color": "white",
+            "funnel": [
+              {
+                "id": 2,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Автоматически дисквалифицирован",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 5,
+            "name": "Вакансия закрыта",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 6,
+            "name": "Принят на другую заявку",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 7,
+            "name": "Удален по требованию кандидата",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 8,
+            "name": "Удаление по требованию Администратором",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 9,
+            "name": "Отклонил соглашение об обработке персональных данных",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 10,
+            "name": "Отклик был отменен кандидатом",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 11,
+            "name": "Телефонное интервью",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 12,
+            "name": "Звонок успешно завершен",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 13,
+            "name": "Недозвон",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 14,
+            "name": "Групповое интервью",
+            "color": "white",
+            "funnel": [
+              {
+                "id": 2,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "name": "Дистанционное тестирование",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 17,
+            "name": "Одобрен по результатам оценки",
+            "color": "white",
+            "funnel": [
+              {
+                "id": 1,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "name": "Тестирование пройдено",
+            "color": "white",
+            "funnel": [
+              {
+                "id": 1,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "name": "Одобрен по результатам ГИ",
+            "color": "white",
+            "funnel": [
+              {
+                "id": 2,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "name": "Запрошена анкета СБ",
+            "color": "white",
+            "funnel": [
+              {
+                "id": 1,
+                "visible": true
+              },
+              {
+                "id": 2,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "name": "Согласован руководителем",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 21,
+            "name": "Направить другому руководителю",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 22,
+            "name": "Направить на другую вакансию",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 24,
+            "name": "Проверка СБ",
+            "color": "white",
+            "funnel": [
+              {
+                "id": 1,
+                "visible": true
+              },
+              {
+                "id": 2,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "name": "Интервью с руководителем",
+            "color": "white",
+            "funnel": [
+              {
+                "id": 1,
+                "visible": true
+              },
+              {
+                "id": 2,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "name": "Согласован для оформления",
+            "color": "white",
+            "funnel": [
+              {
+                "id": 1,
+                "visible": true
+              },
+              {
+                "id": 2,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "name": "Проверка комплаенс",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 27,
+            "name": "Передан на оформление на УД",
+            "color": "white",
+            "funnel": [
+              {
+                "id": 1,
+                "visible": true
+              },
+              {
+                "id": 2,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "name": "Оформлен на УД",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 29,
+            "name": "Передан на оформление на ТД",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 30,
+            "name": "Оформлен на ТД",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 31,
+            "name": "Звонок завершен кандидатом",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 32,
+            "name": "Резерв",
+            "color": "grey",
+            "funnel": [
+              {
+                "id": 1,
+                "visible": true
+              },
+              {
+                "id": 2,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "name": "Резерв Выпускников",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 34,
+            "name": "Не пришел на ГИ",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 35,
+            "name": "Cамоотказ - не подходит вакансия",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 36,
+            "name": "Cамоотказ - уже нашел работу",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 37,
+            "name": "Cамоотказ - отказался от тестирования",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 38,
+            "name": "Не прошел тест на ГИ",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 39,
+            "name": "Отклонен БЭ на ГИ",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 40,
+            "name": "Не согласован руководителем",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 41,
+            "name": "Не согласован СБ",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 42,
+            "name": "Не согласован комплаенс",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 43,
+            "name": "Отклонен по форме обучения и другое",
+            "color": "white",
+            "funnel": []
+          },
+          {
+            "id": 44,
+            "name": "Отказ - по дистанционному тесту",
+            "color": "white",
+            "funnel": []
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "error": null,
+    "page": 1,
+    "total": 1
+  }
+}

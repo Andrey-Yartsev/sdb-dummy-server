@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "statuses": [
+        {
+          "id": 32,
+          "name": "123"
+        },
+        {
+          "id": 35,
+          "name": "456"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "error": null,
+    "page": 1,
+    "total": 1
+  }
+}

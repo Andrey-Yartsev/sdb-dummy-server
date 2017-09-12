@@ -1,0 +1,186 @@
+{
+  "data": [
+    {
+      "id": 18036,
+      "name": "Алёна",
+      "surname": "Тихонова",
+      "second_name": "Алексеевна",
+      "phone": "+78000220266",
+      "email": "baranov.rozalina@gerasimov.net",
+      "birth_date": "1988-08-16T00:00:00+0400",
+      "gender": {
+        "id": "m",
+        "title": "Мужской"
+      },
+      "region": null,
+      "city": "Самарская область",
+      "last_position": "Консультант",
+      "position": null,
+      "status_id": 35,
+      "status_update": "2017-09-12T13:17:32+0300",
+      "htline": null,
+      "job_id": 109,
+      "job_title": "Консультант",
+      "buttons": {
+        "interview_invite": {
+          "active": false,
+          "status_id": 19
+        },
+        "approve": {
+          "active": false,
+          "status_id": 17
+        },
+        "deny": {
+          "active": false,
+          "status_id": 44
+        },
+        "request_ss": {
+          "active": false,
+          "status_id": 23
+        }
+      },
+      "competences": [
+        {
+          "value": 1,
+          "count": 0
+        },
+        {
+          "value": 2,
+          "count": 0
+        },
+        {
+          "value": 3,
+          "count": 0
+        },
+        {
+          "value": 4,
+          "count": 0
+        }
+      ],
+      "districts": [],
+      "metro": [],
+      "interview": null,
+      "resume_link": "https://hh.ru/resume/853703e500021fc12500000dc945714c384c65?t=902849662",
+      "ss_status": {
+        "id": 3,
+        "name": "Запрошена анкета",
+        "date": "2017-07-18T18:34:46+0300",
+        "color": "gray"
+      },
+      "comments": [
+        {
+          "id": 67161,
+          "response_id": 18036,
+          "text": "Cамоотказ - не подходит вакансия",
+          "date": "2017-09-12T13:17:32+0300",
+          "type": 2
+        },
+        {
+          "id": 67160,
+          "response_id": 18036,
+          "text": "Резерв",
+          "date": "2017-09-12T12:28:14+0300",
+          "type": 2
+        },
+        {
+          "id": 67128,
+          "response_id": 18036,
+          "text": "Дата интервью: 2017-09-28 14:40:00\nРуководитель: Кожевников Вячеслав 66554 email-g8379@yahoo.biz",
+          "date": "2017-09-11T17:53:41+0300",
+          "type": 1
+        },
+        {
+          "id": 67127,
+          "response_id": 18036,
+          "text": "Интервью с руководителем",
+          "date": "2017-09-11T17:53:41+0300",
+          "type": 2
+        },
+        {
+          "id": 67126,
+          "response_id": 18036,
+          "text": "Дата интервью: 2017-09-29 14:40:00\nРуководитель: Кораблин Григорий 66553 evsheina.sbt@sberbank.ru\ntest",
+          "date": "2017-09-11T17:53:28+0300",
+          "type": 1
+        },
+        {
+          "id": 67125,
+          "response_id": 18036,
+          "text": "Интервью с руководителем",
+          "date": "2017-09-11T17:53:28+0300",
+          "type": 2
+        },
+        {
+          "id": 67123,
+          "response_id": 18036,
+          "text": "Дата интервью: 2017-09-29 11:20:00\nРуководитель: Кораблин Григорий 66553 evsheina.sbt@sberbank.ru\nffff",
+          "date": "2017-09-11T17:49:15+0300",
+          "type": 1
+        },
+        {
+          "id": 67122,
+          "response_id": 18036,
+          "text": "Интервью с руководителем",
+          "date": "2017-09-11T17:49:15+0300",
+          "type": 2
+        },
+        {
+          "id": 67121,
+          "response_id": 18036,
+          "text": "Дата интервью: 2017-09-30 11:20:00\nРуководитель: Кожевников Вячеслав 66554 email-g8379@yahoo.biz\nasdfasdf",
+          "date": "2017-09-11T17:46:24+0300",
+          "type": 1
+        },
+        {
+          "id": 67120,
+          "response_id": 18036,
+          "text": "Интервью с руководителем",
+          "date": "2017-09-11T17:46:24+0300",
+          "type": 2
+        },
+        {
+          "id": 54758,
+          "response_id": 18036,
+          "text": "Qui corrupti cupiditate tenetur illum cumque rerum. Harum repellat autem esse atque rerum. Accusamus ullam repellat enim eius.",
+          "date": "2017-07-18T18:34:46+0300",
+          "type": 1
+        },
+        {
+          "id": 54757,
+          "response_id": 18036,
+          "text": "Est voluptatem nulla voluptatum eius. Rerum aut accusantium id. Labore nihil fugiat commodi autem quo nostrum.",
+          "date": "2017-07-18T18:34:46+0300",
+          "type": 1
+        },
+        {
+          "id": 54756,
+          "response_id": 18036,
+          "text": "Ipsum cum temporibus qui voluptates facere sunt ea porro. Ut tempora quo sit et pariatur consequuntur. Minima nemo eligendi tempora suscipit modi.",
+          "date": "2017-07-18T18:34:46+0300",
+          "type": 1
+        },
+        {
+          "id": 54755,
+          "response_id": 18036,
+          "text": "Проверка СБ",
+          "date": "2017-07-18T18:34:46+0300",
+          "type": 2
+        },
+        {
+          "id": 54754,
+          "response_id": 18036,
+          "text": "Новый",
+          "date": "2017-07-18T18:34:46+0300",
+          "type": 2
+        }
+      ],
+      "starred": true,
+      "group_interview": null
+    }
+  ],
+  "meta": {
+    "error": null,
+    "page": 1,
+    "total": 1
+  }
+}
