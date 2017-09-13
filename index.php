@@ -45,17 +45,31 @@ if ($api === 'state') {
   $r = json_encode($d);
 } elseif ($api === 'responses') {
   $d = json_decode($r);
-  $job_id = file_get_contents('./data/position_id');
-  $d->data = array_filter($d->data, function($v) use ($job_id) {
-    $v->job_id = $job_id;
+  $d->data = array_values(array_filter($d->data, function($v) {
     return $v->job_id == $_GET['filter_id'];
-  });
+  }));
   $r = json_encode($d);
 } elseif ($api === 'change_position') {
   $request_body = file_get_contents('php://input');
+  $responses = json_decode(file_get_contents('./responses.json'));
   $post = json_decode($request_body);
-  // print_r($post);
-  file_put_contents('./data/position_id', $post->new_position_id);
+  foreach ($post->response_ids as $response_id) {
+    foreach ($responses->data as $response) {
+      if ($response->id == $response_id) {
+        $response->job_id = $post->new_position_id;
+      }
+    }
+  }
+  file_put_contents('./responses.json', json_encode($responses));
+  $responses->data = array_values(array_filter($responses->data, function ($v) use ($post) {
+    return in_array($v->id, $post->response_ids);
+  }));
+  print json_encode($responses);
+  die();
+} elseif ($api === 'change_status') {
+  $request_body = file_get_contents('php://input');
+  $post = json_decode($request_body);
+  file_put_contents('./data/status_id', $post->status_id);
 }
 
 print $r;
